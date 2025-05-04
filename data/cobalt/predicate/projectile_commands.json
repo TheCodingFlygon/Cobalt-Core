@@ -1,0 +1,50 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "weapon": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "projectile": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "item": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "projectile": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "Item": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "projectile": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

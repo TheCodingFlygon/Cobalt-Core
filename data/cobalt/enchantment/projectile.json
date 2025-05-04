@@ -1,0 +1,38 @@
+{
+    "anvil_cost": 0,
+    "description": "Projectile Commands",
+    "effects": {
+    "minecraft:post_attack": [
+        {
+            "enchanted": "attacker",
+            "affected": "damaging_entity",
+            "effect": {
+                "type": "minecraft:run_function",
+                "function": "cobalt:item/projectile/hit_mob"
+            }
+        }
+    ],
+    "minecraft:hit_block": [
+        {
+            "effect": {
+                "type": "minecraft:run_function",
+                "function": "cobalt:item/projectile/hit_block"
+            }
+        }
+    ]
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#cobalt:projectile_commands",
+    "weight": 1
+}

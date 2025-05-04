@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:consumable": {
+                            "consume_seconds": 2147483647,
+                            "animation": "block"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cobalt:item/use"
+    }
+}

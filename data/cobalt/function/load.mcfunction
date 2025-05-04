@@ -1,0 +1,1 @@
+scoreboard objectives add cobalt.blocked minecraft.custom:minecraft.damage_blocked_by_shield
