@@ -1,6 +1,6 @@
 # Function on block
-execute as @a[scores={cobalt.blocked=1..}] at @s run function cobalt:run with entity @s SelectedItem.components.minecraft:custom_data.onBlock
-execute as @a[scores={cobalt.blocked=1..}] at @s run function cobalt:run with entity @s equipment.offhand.components.minecraft:custom_data.onBlock
+execute as @a[scores={cobalt.blocked=1..}] at @s run function cobalt:run with entity @s SelectedItem.components.minecraft:custom_data.cobalt.onBlock
+execute as @a[scores={cobalt.blocked=1..}] at @s run function cobalt:run with entity @s equipment.offhand.components.minecraft:custom_data.cobalt.onBlock
 execute as @a[scores={cobalt.blocked=1..}] at @s run scoreboard players set @s cobalt.blocked 0
 
 # Projectile functions

@@ -9,7 +9,9 @@
                     "mainhand": {
                         "predicates": {
                             "custom_data": {
-                                "onHold": {}
+                                "cobalt": {
+                                    "onHold": {}
+                                }
                             }
                         }
                     }
@@ -24,7 +26,9 @@
                     "offhand": {
                         "predicates": {
                             "custom_data": {
-                                "onHold": {}
+                                "cobalt": {
+                                    "onHold": {}
+                                }
                             }
                         }
                     }
@@ -39,7 +43,9 @@
                     "head": {
                         "predicates": {
                             "custom_data": {
-                                "onHold": {}
+                                "cobalt": {
+                                    "onHold": {}
+                                }
                             }
                         }
                     }
@@ -54,7 +60,9 @@
                     "chest": {
                         "predicates": {
                             "custom_data": {
-                                "onHold": {}
+                                "cobalt": {
+                                    "onHold": {}
+                                }
                             }
                         }
                     }
@@ -69,7 +77,9 @@
                     "legs": {
                         "predicates": {
                             "custom_data": {
-                                "onHold": {}
+                                "cobalt": {
+                                    "onHold": {}
+                                }
                             }
                         }
                     }
@@ -84,7 +94,9 @@
                     "feet": {
                         "predicates": {
                             "custom_data": {
-                                "onHold": {}
+                                "cobalt": {
+                                    "onHold": {}
+                                }
                             }
                         }
                     }
