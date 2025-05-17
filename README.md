@@ -52,10 +52,10 @@ Below are all current uses for Cobalt Core, along with example commands:
 /give @s lantern[custom_data={cobalt:{onHold:{command:"effect give @e[distance=..50] glowing 1 0 true"}}}]
 ```
 `projectile.onSpawn`: runs for a single tick when the projectile is spawned
-```
+```mcfunction
 /give @s trident[custom_data={cobalt:{projectile:{onSpawn:{command:"summon lightning_bolt"}}}}]
 ```
 `projectile.onTravel`: runs for every tick the projectile is travelling
-```
+```mcfunction
 /give @s bow[custom_data={cobalt:{projectile:{onTravel:{command:"execute on origin run tp @s ~ ~ ~"}}}}]
 ```
