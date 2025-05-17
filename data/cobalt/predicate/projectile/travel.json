@@ -1,0 +1,43 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "weapon": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "cobalt": {
+                                    "projectile": {
+                                        "onTravel": {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "item": {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "cobalt": {
+                                    "projectile": {
+                                        "onTravel": {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

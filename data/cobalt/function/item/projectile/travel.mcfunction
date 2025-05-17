@@ -1,0 +1,2 @@
+function cobalt:run with entity @s weapon.components.minecraft:custom_data.cobalt.projectile.onTravel
+function cobalt:run with entity @s item.components.minecraft:custom_data.cobalt.projectile.onTravel
